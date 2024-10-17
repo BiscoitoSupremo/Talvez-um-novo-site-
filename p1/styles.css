@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #fff;
+    background: linear-gradient(to bottom, #1a1a1a, #333);
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.misterioso {
+    text-align: center;
+    padding: 100px 20px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.enigma-card {
+    background: #444;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.enigma-card:hover {
+    transform: scale(1.05);
+}
+
+.resposta {
+    margin-top: 10px;
+}
+
+.surpresa {
+    background: #555;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.escondido {
+    display: none;
+}
